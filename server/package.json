@@ -1,0 +1,16 @@
+{
+  "name": "smc-indikator-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-contained Node.js reference implementation for the Indodax exchange API, serving the SMC Indikator frontend.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  }
+}

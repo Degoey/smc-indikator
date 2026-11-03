@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment files (jangan commit kredensial/URL server)
+.env
+.env.*
+!.env.example
+!.env.production.example
+
+# Capacitor / Android build output
+/android
+
+# Kilo / tooling local
+.kilo/
+
+# Test artifacts
+test-indodax
+test-indodax-endpoint.mjs
+
+# Unrelated local scripts
+move-ebook-to-gdrive.bat
+move-ebook-to-gdrive.ps1
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
